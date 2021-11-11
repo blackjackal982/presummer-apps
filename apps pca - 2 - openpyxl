@@ -1,0 +1,20 @@
+Estimated Time: 90-120 mins
+
+ 
+
+This assignment is about reading and writing excel files through python. Refer to the guidelines in @21. This builds on assignment 1 (on using click).
+
+Here's the high level spec, you have to figure out all the details and get this done:
+
+ 
+
+Create a script called copyexcel.py which uses openpyxl and click. It copies all data from one excel file to another and transforms them according to specified criteria. If the input has more than one worksheet, then all of them are copied.
+Script usage is as follows:
+
+copyexcel.py --capitalize --preservestyles <source_excel> <dest_excel> 
+--capitalize  -> boolean flag. default false. If specified, all string data will be capitalized during copy into destination
+--preservestyles -> boolean falg. default false. If specified, even the cell styles will be copied, else only data.
+source_excel -> argument that specifies the input file
+dest_excel -> argument that specifies the output file. It already exists, prompt if user wants to overwrite. If yes, overwrite it.
+
+You can use this as the sample data file for testing: students.xlsx
