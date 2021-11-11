@@ -1,0 +1,25 @@
+For this assignment, we will use the two packages that you have used before and a new one. 
+
+Use the beautiful soup package to extract the scores from the html file of the mock results and put it in an excel sheet. 
+
+ 
+
+This screenshot contains the desired output: desiredexceldata.png
+
+ 
+
+- extract the columns names (skip the No column)
+
+- extract the student data 
+
+- use click to write the command tool as shown below with 2 arguments
+- use openpyxl to write to the excel file
+
+- use beautifulsoup to parse and extract the html data.
+
+
+dumptoexcel.py <mock_test.hml> <outputexcel.xlsx>
+
+ 
+
+Input file for testing:mock_results.html
