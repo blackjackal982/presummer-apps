@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title> LOGIN PAGE</title>
+    <script type = "text/javascript">
+    function validate()
+    {
+       if(form.login.value == "myuserid" && form.password.value == "mypswrd")
+       {
+         window.open('target.html')/*opens the target page while Id & password matches*/
+       }
+      else
+      {
+        alert("Error Password or Username")/*displays error message*/
+       }
+
+    }
+    </script>
+    <style>
+    form {
+    border : 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width : 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  </style>
+</head>
+<body>
+    <form>
+        LOGIN : <input type="text" id="login" name="login"/><br/>
+        PASSWORD : <input type="password" id="password" name="password"/><br/>
+        <input type="submit" value="submit" onClick="return validate()"/>
+        <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+    </form>
+</body>
+</html>

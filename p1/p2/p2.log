@@ -1,0 +1,9 @@
+An INFO message
+2019-05-22 14:08:20,833 - 29 - INFO     - entering p1.m2.f3
+2019-05-22 14:08:20,833 - 30 - WARNING  - warning at p1.m2.f3
+2019-05-22 14:08:20,833 - 31 - ERROR    - error in p1.m2.f3
+2019-05-22 14:08:20,833 - 32 - INFO     - exiting p1.m2.f3
+2019-05-22 14:08:20,837 - 36 - INFO     - entering p1.m2.f4
+2019-05-22 14:08:20,837 - 37 - WARNING  - warning at p1.m2.f4
+2019-05-22 14:08:20,841 - 38 - ERROR    - error in p1.m2.f4
+2019-05-22 14:08:20,841 - 39 - INFO     - exiting p1.m2.f4

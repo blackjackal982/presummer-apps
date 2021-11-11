@@ -1,0 +1,104 @@
+2019-05-22 14:08:20,685 - p1.m1 - INFO - entering p1.m1.f1
+2019-05-22 14:08:20,789 - p1.m1 - WARNING - warning at p1.m1.f1
+2019-05-22 14:08:20,789 - p1.m1 - ERROR - error in p1.m1.f1
+2019-05-22 14:08:20,789 - p1.m1 - INFO - exiting p1.m1.f1
+2019-05-22 14:08:20,793 - p1.m1 - INFO - entering p1.m1.f2
+2019-05-22 14:08:20,793 - p1.m1 - WARNING - warning at p1.m1.f2
+2019-05-22 14:08:20,793 - p1.m1 - ERROR - error in p1.m1.f2
+2019-05-22 14:08:20,793 - p1.m1 - INFO - exiting p1.m1.f2
+2019-05-22 14:08:20,841 - p1.m3 - INFO - entering p1.m3.f5
+2019-05-22 14:08:20,841 - p1.m3 - WARNING - warning at p1.m3.f5
+2019-05-22 14:08:20,841 - p1.m3 - ERROR - error in p1.m3.f5
+2019-05-22 14:08:20,841 - p1.m3 - INFO - exiting p1.m3.f5
+2019-05-22 14:08:20,845 - p1.p3.m4 - INFO - entering p1.m4.f6
+2019-05-22 14:08:20,845 - p1.p3.m4 - WARNING - warning at p1.m4.f6
+2019-05-22 14:08:20,845 - p1.p3.m4 - ERROR - error in p1.m4.f6
+2019-05-22 14:08:20,845 - p1.p3.m4 - INFO - exiting p1.m4.f6
+2019-05-22 14:13:41,582 - p1.m1 - INFO - entering p1.m1.f1
+2019-05-22 14:13:41,582 - p1.m1 - WARNING - warning at p1.m1.f1
+2019-05-22 14:13:41,582 - p1.m1 - ERROR - error in p1.m1.f1
+2019-05-22 14:13:41,582 - p1.m1 - INFO - exiting p1.m1.f1
+2019-05-22 14:13:41,582 - p1.m1 - INFO - entering p1.m1.f2
+2019-05-22 14:13:41,582 - p1.m1 - WARNING - warning at p1.m1.f2
+2019-05-22 14:13:41,582 - p1.m1 - ERROR - error in p1.m1.f2
+2019-05-22 14:13:41,582 - p1.m1 - INFO - exiting p1.m1.f2
+2019-05-22 14:13:41,586 - p1.m3 - INFO - entering p1.m3.f5
+2019-05-22 14:13:41,586 - p1.m3 - WARNING - warning at p1.m3.f5
+2019-05-22 14:13:41,586 - p1.m3 - ERROR - error in p1.m3.f5
+2019-05-22 14:13:41,586 - p1.m3 - INFO - exiting p1.m3.f5
+2019-05-22 14:13:41,586 - p1.p3.m4 - INFO - entering p1.m4.f6
+2019-05-22 14:13:41,586 - p1.p3.m4 - WARNING - warning at p1.m4.f6
+2019-05-22 14:13:41,586 - p1.p3.m4 - ERROR - error in p1.m4.f6
+2019-05-22 14:13:41,586 - p1.p3.m4 - INFO - exiting p1.m4.f6
+2019-06-05 11:45:25,995 - p1.m1 - INFO - entering p1.m1.f1
+2019-06-05 11:45:26,026 - p1.m1 - WARNING - warning at p1.m1.f1
+2019-06-05 11:45:26,026 - p1.m1 - ERROR - error in p1.m1.f1
+2019-06-05 11:45:26,026 - p1.m1 - INFO - exiting p1.m1.f1
+2019-06-05 11:45:26,026 - p1.m1 - INFO - entering p1.m1.f2
+2019-06-05 11:45:26,026 - p1.m1 - WARNING - warning at p1.m1.f2
+2019-06-05 11:45:26,026 - p1.m1 - ERROR - error in p1.m1.f2
+2019-06-05 11:45:26,026 - p1.m1 - INFO - exiting p1.m1.f2
+2019-06-05 11:45:26,042 - p1.m3 - INFO - entering p1.m3.f5
+2019-06-05 11:45:26,042 - p1.m3 - WARNING - warning at p1.m3.f5
+2019-06-05 11:45:26,042 - p1.m3 - ERROR - error in p1.m3.f5
+2019-06-05 11:45:26,042 - p1.m3 - INFO - exiting p1.m3.f5
+2019-06-05 11:45:26,042 - p1.p3.m4 - INFO - entering p1.m4.f6
+2019-06-05 11:45:26,042 - p1.p3.m4 - WARNING - warning at p1.m4.f6
+2019-06-05 11:45:26,042 - p1.p3.m4 - ERROR - error in p1.m4.f6
+2019-06-05 11:45:26,042 - p1.p3.m4 - INFO - exiting p1.m4.f6
+2019-06-05 11:45:51,415 - p1.m1 - INFO - entering p1.m1.f1
+2019-06-05 11:45:51,415 - p1.m1 - WARNING - warning at p1.m1.f1
+2019-06-05 11:45:51,415 - p1.m1 - ERROR - error in p1.m1.f1
+2019-06-05 11:45:51,415 - p1.m1 - INFO - exiting p1.m1.f1
+2019-06-05 14:04:59,468 - p1.m1 - INFO - entering p1.m1.f1
+2019-06-05 14:04:59,468 - p1.m1 - WARNING - warning at p1.m1.f1
+2019-06-05 14:04:59,468 - p1.m1 - ERROR - error in p1.m1.f1
+2019-06-05 14:04:59,468 - p1.m1 - INFO - exiting p1.m1.f1
+entering p1.m1.f1
+warning at p1.m1.f1
+error in p1.m1.f1
+exiting p1.m1.f1
+entering p1.m1.f2
+warning at p1.m1.f2
+error in p1.m1.f2
+exiting p1.m1.f2
+entering p1.m3.f5
+warning at p1.m3.f5
+error in p1.m3.f5
+exiting p1.m3.f5
+entering p1.m4.f6
+warning at p1.m4.f6
+error in p1.m4.f6
+exiting p1.m4.f6
+entering p1.m1.f1
+warning at p1.m1.f1
+error in p1.m1.f1
+exiting p1.m1.f1
+entering p1.m1.f2
+warning at p1.m1.f2
+error in p1.m1.f2
+exiting p1.m1.f2
+entering p1.m3.f5
+warning at p1.m3.f5
+error in p1.m3.f5
+exiting p1.m3.f5
+entering p1.m4.f6
+warning at p1.m4.f6
+error in p1.m4.f6
+exiting p1.m4.f6
+entering p1.m1.f1
+warning at p1.m1.f1
+error in p1.m1.f1
+exiting p1.m1.f1
+entering p1.m1.f2
+warning at p1.m1.f2
+error in p1.m1.f2
+exiting p1.m1.f2
+entering p1.m3.f5
+warning at p1.m3.f5
+error in p1.m3.f5
+exiting p1.m3.f5
+entering p1.m4.f6
+warning at p1.m4.f6
+error in p1.m4.f6
+exiting p1.m4.f6
