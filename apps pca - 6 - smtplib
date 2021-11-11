@@ -1,0 +1,22 @@
+This exercise builds on assignment 5 and explores sending mail programatically using smtplib
+
+ 
+
+Assuming that you have imported the data into the database in previous assignment, write a click script (collegereport.py) which will take a college acronym (say gvp) and sends out a class report to a specified email (use your friends email).
+
+ 
+
+The report should contain 3 parts:
+
+The list of college students and their scores
+The college summary (count of students, min, max, avg) and
+The global summary for the whole class (for comparison). 
+ 
+
+Use smtplib and and send email from gmail.  You can take the gmail credentials as environment variables (click supports reading arguments from env variables). If you run into issues, you know what to do :-).
+
+ 
+
+NOTE:
+
+Don't send the mail to me, send it to your own or your friend's account!! :-)
