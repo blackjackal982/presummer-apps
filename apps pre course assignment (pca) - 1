@@ -1,0 +1,55 @@
+Estimated time: 90-120 minutes 
+
+ 
+
+If you do not finish the task in the estimated time, it is OK. The important thing is to finish this on your own as much as possible. Over time you will get faster with practice and reflection on what works well for you.
+
+ 
+
+Use the guidelines in @21 to figure things out and get this done. Note that we will use all the packages given in assignments in summer, so do finish these assignments for sure. 
+
+ 
+
+Assignment 1
+
+ 
+
+Use the click python package to build a command line tool with the following behavior. The sample usage session should tell you all the options, arguments and subcommands that you need to define and implement.
+
+ 
+
+C:\work\summer2019\precourse>py strcmd.py
+Usage: strcmd.py [OPTIONS] COMMAND [ARGS]...
+
+  Supports some string commands from command line
+
+Options:
+  -rd, --removedigits / -nrd, --no-removedigits
+                                  remove digits from input
+  --help                          Show this message and exit.
+
+Commands:
+  concat  concatenates passed in strings with delimiter
+  lower   converts the word to lower case
+  upper   converts the word to upper case
+
+C:\work\summer2019\precourse>py strcmd.py concat --help
+Usage: strcmd.py concat [OPTIONS] [TOKENS]...
+
+  pass one or more strings, concat them with delimiter  and print them out
+
+Options:
+  -d, --delimiter TEXT  defaults to :
+  --help                Show this message and exit.
+
+C:\work\summer2019\precourse>py strcmd.py concat one two three
+one:two:three
+
+C:\work\summer2019\precourse>py strcmd.py --removedigits concat -d , on1e t2wo th3ree
+one,two,three
+
+C:\work\summer2019\precourse>py strcmd.py upper Hello1World#4
+HELLO1WORLD#4
+
+C:\work\summer2019\precourse>py strcmd.py -rd upper Hello1World#4
+HELLOWORLD#
