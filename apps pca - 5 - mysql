@@ -1,0 +1,24 @@
+I am told that all of you know a decent amount of sql from college work, so use this assignment to refresh or pick up sql basics before you come to class.
+
+ 
+
+Install latest version of mysql server (install workbench as well).
+Install "mysqlclient" package to enable python connectivity to mysql (install a wheel if you run into issues...., figure out what that means).
+
+Now do the following tasks from a python click script - not using mysql client or workbench, you can use them to verify what you did. Implement the following commands - take arguments as appropriate
+
+ 
+
+createdb -> command that creates a database and the appropriate tables (students and marks) and foreign key relationship between marks and students tables
+dropdb -> drop the database
+importdata -> import the data in the students.xlsx in assignment 2 and marks.xlsx that you generated in assignment 3 into the tables.
+collegestats -> print out a console report showing number of students per college and the min, max and average marks of students from the college. [college acronym, student count, min, avg, max]
+ 
+
+If you can do these, then you have sufficient sql background for the summer class. If not, please search  some sql tutorials and understand these before you come.
+
+ 
+
+NOTE:
+
+If you are stuck for more than a day on installation, take help from each other on forums and do it. 
