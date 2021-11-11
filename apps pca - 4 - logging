@@ -1,0 +1,50 @@
+Estimated Time: 120 minutes 
+
+ 
+
+This assignment exercises your ability to pick up and use a new infrastructure package.
+
+ 
+
+In any real world application, logging is a key component that is indispensable for troubleshooting errors especially when the bug has already happened and a customer or a tester has reported it or when it is not realistic to attach a debugger (imagine trying to get permission to attach a debugger on a live website serving customers ...)
+
+Python has a builtin logging package which is used by all major python frameworks, so it worth knowing well.
+
+
+For this assignment, you must read the available information on logging and solve this problem. 
+
+ 
+
+Problem
+
+Create the following packages/modules and methods. Names that start with p are packages, with m are modules and f are functions 
+
+ 
+
+p1.m1 -> f1 and f2
+p1.p2.m2 -> f3 and f4
+p1.m3 -> f5 
+p1.p3.m4 -> f6
+main script which has a main method which calls each of these functions
+ 
+
+Each of the methods should have entry and exit log statements at info level ("entering method p1.m1.f1", "exiting method p1.m1.f1" ) and additional log statements at a warning and error level level (e.g. "this is a log from p1.m1.f1 at warning level") .
+
+Now use the logging features to configure its dictConfig so that
+
+ 
+
+all p1.p2 logs go into p2.log 
+all p1 logs (including its subpackages) except p2 logs go into p1.log
+all logs from main method go to main.log
+all error and warning logs from p1, p2, p3 and main should be displayed on console.
+ 
+
+Code all this up and verify that the log files and console show the appropriate log statements.
+
+ 
+
+There are many ways to solve this problem. Get some solution and then discuss with your friends to see if you can simplify it further.
+
+Extra credit:
+see if you can figure out a helper routine that when invoked logs all the 5 log statements on behalf of the caller!
